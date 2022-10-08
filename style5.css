@@ -1,0 +1,31 @@
+.container {
+    height: 544px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    border: 2px solid green;
+    margin: 10px;
+    padding: 3px;
+}
+
+
+
+#item-2 {
+ 
+    flex-basis: 160px;
+   
+}
+
+#item-3 {
+  
+    align-self: flex-start;
+    align-self: flex-end;
+    align-self: center;
+}

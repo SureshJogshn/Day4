@@ -1,0 +1,59 @@
+.button {
+    background-color: rgb(135, 135, 245);
+    height: 50px;
+    width: 150px;
+    border-radius: 35px;
+    margin:12px;
+    font-size: larger;
+    color: cornsilk;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 480px) {
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .button {
+    background-color: green;
+    height: 50px;
+    width: 150px;
+    border-radius: 35px;
+    margin:12px;
+    font-size: larger;
+    color: cornsilk;
+
+}
+
+
+
+
+}
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+       
+    }
+    .button {
+    background-color: red;
+    height: 50px;
+    width: 150px;
+    border-radius: 35px;
+    margin:12px;
+    font-size: larger;
+    color: cornsilk;
+
+}
+
+}
+
